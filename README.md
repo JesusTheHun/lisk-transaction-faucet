@@ -20,7 +20,6 @@ const { FaucetTransaction } = require('lisk-transaction-faucet');
 const tx =  new FaucetTransaction({
     type: FaucetTransaction.TYPE,
     amount: 42,
-    fee: 0,
     senderPublicKey: somePublicKey, // the sender doesn't matter since nobody pay anything, but it sill needs to be valid
     recipientId: recipientAddress, // Faucet receiver
     timestamp: txTimestamp,
