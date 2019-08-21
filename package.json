@@ -11,7 +11,8 @@
     "lisk",
     "transaction",
     "sdk",
-    "faucet"
+    "faucet",
+    "blockchain"
   ],
   "author": "Jonathan MASSUCHETTI",
   "license": "WTFPL",
