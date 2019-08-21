@@ -2,6 +2,7 @@
   "name": "lisk-transaction-faucet",
   "version": "1.0.0",
   "description": "Faucet transaction for Lisk development",
+  "homepage": "https://github.com/JesusTheHun/lisk-transaction-faucet",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
