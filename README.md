@@ -18,11 +18,12 @@ Of course you should **only** activate it in a **development** environment.
 const { FaucetTransaction } = require('lisk-transaction-faucet');
 
 const tx =  new FaucetTransaction({
-    type: FaucetTransaction.TYPE,
-    amount: 42,
     senderPublicKey: somePublicKey, // the sender doesn't matter since nobody pay anything, but it sill needs to be valid
-    recipientId: recipientAddress, // Faucet receiver
     timestamp: txTimestamp,
+    asset: {
+        amount: 42,
+        recipientId: recipientAddress, // Faucet receiver
+    }
 });
 
 tx.sign(senderAccountPassphrase);
